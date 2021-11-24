@@ -1,0 +1,17 @@
+User-agent: *
+Sitemap: https://site.com.ua/sitemap_index.xml
+
+Sitemap: https://site.com.ua/sitemap-video.xml
+
+Sitemap: https://site.com.ua/sitemap-image.xml
+
+
+
+Allow: /optimaze/*
+Disalow: /admin/*
+Disalow: /aavatar/*
+User-agent: Yandex
+Allow: /optimaze/*
+Disalow: /admin/*
+Disalow: /aavatar/*
+Host: https://site.com.ua

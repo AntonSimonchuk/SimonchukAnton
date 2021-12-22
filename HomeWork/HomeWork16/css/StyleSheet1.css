@@ -1,0 +1,123 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.for_page {
+    min-height: 100%;
+    position: relative;
+}
+
+.page {
+    padding-bottom: 158px;
+}
+
+.footer {
+    color: #fff;
+    background: #11053D;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 70px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main_blog .article {
+    width: 32%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.main_blog .article .title_article a {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    height: 47px;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+}
+
+    .main_blog .article .title_article a:hover {
+        color: #ccc;
+    }
+
+.about_article {
+    line-height: 21px;
+    letter-spacing: 1px;
+    max-height: 87px;
+    overflow: hidden;
+}
+
+.btn_article {
+    background: #081254;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+    .btn_article:hover {
+        background: #084FBA;
+    }
+
+.img_article {
+    position: relative;
+}
+
+    .img_article:before {
+        display: none;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgb(0,0,0,0.5);
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .img_article:hover:before {
+        display: block;
+    }
+
+.hover_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+.img_article:hover .hover_text {
+    display: block;
+}
